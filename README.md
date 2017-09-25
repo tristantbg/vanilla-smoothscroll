@@ -30,13 +30,10 @@ Explanation of each option follows:
 Scroll _from the current position_ by passing a number of pixels.
 
 ```es6
-// scroll down 100px
+// scroll to 100px (relative to top of page)
 
 jump(100)
 
-// scroll up 100px
-
-jump(-100)
 ```
 
 Or, scroll _to an element_, by passing either:
